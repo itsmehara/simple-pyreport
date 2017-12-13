@@ -1,0 +1,7 @@
+{{ data.is_broadband_service|tojson }}
+{% for key, val in data.tablevals.items() %}
+{{ key }} : {{ val }}
+{% endfor %}
+{{ data["title"] }}
+
+

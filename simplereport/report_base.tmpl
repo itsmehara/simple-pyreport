@@ -1,5 +1,13 @@
 <html>
 <body>
-{{report_content}}
+<table style="width:100%">
+  <tr>
+    <th>key1</th> <th>key2</th> <th>key3</th> <th>key4</th>
+  </tr>
+    {% for each in data %}
+        <tr> <td>{{each["key1"]}}</td> <td>{{each["key2"]}}</td>
+        <td>{{each["key3"]}}</td> <td>{{each["key4"]}}</td> </tr>
+    {% endfor %}
+</table>
 </body>
 </html>
