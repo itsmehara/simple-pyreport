@@ -1,6 +1,14 @@
 # simple-pyreport
 Sample python code for report generation.
 
+```
+Note: If system is windows, then make sure 
+	- "pip" is installed in windows. reference link is follows.
+	- "virtualenv" is installed in windows. reference link is follows.
+	- https://github.com/BurntSushi/nfldb/wiki/Python-&-pip-Windows-installation
+	- http://pymote.readthedocs.io/en/latest/install/windows_virtualenv.html	
+```
+
 ## Step1:
 ### Install virtual environment
 ```buildoutcfg
